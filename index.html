@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Conservation</title>
+    <link rel="icon" href="OIP-removebg-preview (1).png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-body-tertiary">
+
+        <div class="container-fluid">
+
+            <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15"
+                        alt="MDB Logo" loading="lazy" />
+                </a>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT US</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+
+            <div class="d-flex align-items-center">
+
+                <a class="text-reset me-3" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+
+
+                <div class="dropdown">
+                    <a data-mdb-dropdown-init class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                        id="navbarDropdownMenuAvatar" role="button" aria-expanded="false">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+                            alt="Black and White Portrait of a Man" loading="lazy" />
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                        <li>
+                            <a class="dropdown-item" href="#">My profile</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Settings</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div id="wildlifeSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/6942966/pexels-photo-6942966.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="d-block w-100" alt="Wildlife 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Amazons Rainforest</h5>
+                    <p>The Amazon Rainforest, located in South America, is the largest tropical rainforest in the world,
+                        home to a rich diversity of wildlife and plant species.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/17318211/pexels-photo-17318211/free-photo-of-sand-dunes-with-waves-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="d-block w-100" alt="Wildlife 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Sahara Desert</h5>
+                    <p>The Sahara Desert is the largest hot desert in the world, spanning much of North Africa. It's
+                        known for its vast sand dunes, arid climate, and unique wildlife.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="d-block w-100" alt="Wildlife 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Majestic Trees</h5>
+                    <p>Trees play a crucial role in the environment by providing oxygen, stabilizing the soil, and
+                        supporting wildlife. Some of the oldest and tallest trees are found in forests around the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#wildlifeSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#wildlifeSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <section id="home">
+        <h2 class="text-center mb-4" style="margin-top: 20px;">WILD LIFE ANIMAL AND INFORMATION</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/14925845/pexels-photo-14925845.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Giant Panda</h5>
+                        <p class="card-text">Giant pandas are an endangered species, primarily found in China, facing
+                            habitat loss and low reproduction rates.</p>
+                        <a href="#" class="btn btn-primary" style="text-align:center">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/677974/pexels-photo-677974.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Javan Rhino</h5>
+                        <p class="card-text">The Javan rhino is one of the rarest rhino species, found only in Ujung
+                            Kulon National Park in Indonesia .</p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/2123060/pexels-photo-2123060.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Snow Leopard</h5>
+                        <p class="card-text">Snow leopards are native to the mountain ranges of Central and South Asia.</p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.8_CYfpQwf66twQT4kaQ-UgHaD4?w=283&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                        class="card-img-top" alt="Animal 4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Vaquita</h5>
+                        <p class="card-text">The vaquita is a critically endangered species of porpoise found in the
+                            northern part of the Gulf of California.</p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/5572242/pexels-photo-5572242.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 5">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mountain Gorilla</h5>
+                        <p class="card-text">Mountain gorillas are found in the forests of Uganda, Rwanda, and the
+                            Democratic Republic of Congo.</p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/2155969441/photo/sirocco-the-kakapo-the-national-treasure-and-media-superstar-of-new-zealand.jpg?b=1&s=612x612&w=0&k=20&c=wFP4nerkbi-clUSu0XO7HxXfb7srZ5hKQPZgXEfU__8="
+                        class="card-img-top" alt="Animal 6">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kakapo</h5>
+                        <p class="card-text">The kakapo is a flightless parrot from New Zealand, critically endangered
+                            due to predation by introduced species.</p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/2656647/pexels-photo-2656647.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 7">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Orangutan</h5>
+                        <p class="card-text">Orangutans are critically endangered due to habitat destruction and
+                            poaching. </p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/7143434/pexels-photo-7143434.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Hawksbill Turtle</h5>
+                        <p class="card-text">Hawksbill turtles are critically endangered due to illegal trade.</p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/148182/pexels-photo-148182.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 9">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Red Panda</h5>
+                        <p class="card-text">Red pandas are endangered due to habitat loss, deforestation, and poaching
+                            in the Himalayas.</p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/22610440/pexels-photo-22610440/free-photo-of-sloth-in-zoo.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 10">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pygmy Three-Toed Sloth</h5>
+                        <p class="card-text">The Pygmy Three-Toed Sloth (scientific name: Bradypus pygmaeus) is a
+                            critically endangered species that is found only on the small island. </p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/259554/pexels-photo-259554.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 11">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Giraffa</h5>
+                        <p class="card-text">A giraffe is a large African mammal belonging to the genus Giraffa. It is the tallest living terrestrial animal and the largest ruminant on Earth.</p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/2168831/pexels-photo-2168831.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Animal 12">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Axolotl</h5>
+                        <p class="card-text">The axolotl, a type of salamander, is critically endangered due to
+                            pollution and habitat loss in its native lakes near Mexico City.</p>
+                        <a href="#" class="btn btn-primary">More Information</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </sections>
+    <section id="gallery">
+        <h2 class="text-center mb-4">Photo Gallery</h2>
+        <div class="row g-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="Bat.avif" class="card-img-top" alt="Gallery Image 1">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="Bison.avif" class="card-img-top" alt="Gallery Image 2">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="Deer.avif" class="card-img-top" alt="Gallery Image 3">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="Gazelle.avif" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;" >
+                    <img src="Kookaburra.avif" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="Moose.avif" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="Otter.avif" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="Pangolin.avif" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="Weasel.avif" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="Wild Boar.avif" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card"style="height: fit-content;" >
+                    <img src="Wolf.avif" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="height: fit-content;">
+                    <img src="zebra.avif" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="margin-bottom: 20px;">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="contact-box">
+                    <h2 class="text-center text-primary mb-4">Contact Us</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Write your message"
+                                required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-body-tertiary text-center">
+
+        <div class="container p-4 pb-0">
+
+            <section class="mb-4">
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                    href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+                    href="https://www.google.co.uk/" role="button"><i class="fab fa-google"></i></a>
+
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+                    href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
+
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                    href="https://pk.linkedin.com/" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                    href="https://github.com/" role="button"><i class="fab fa-github"></i></a>
+            </section>
+
+        </div>
+
+
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);color: #0b0b0b;">
+            © 2020 Copyright:
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script>
+        
+        const toggler = document.querySelector('[data-mdb-collapse-init]');
+        const collapse = document.querySelector('#navbarSupportedContent');
+
+        toggler.addEventListener('click', () => {
+            collapse.classList.toggle('show');
+        });
+
+    </script>
+</body>
+
+</html>
